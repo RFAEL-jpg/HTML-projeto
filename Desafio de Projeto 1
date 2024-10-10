@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Desafio de Projeto</title>  
+    <body>
+       <h1 id="inicio" style="font-family:Inter">HTML: O que aprendi</h1> </p>
+       <hr /> 
+       <h2
+        style="font-family:Inter"><i>Índice:</i>
+    </h2>
+       <ul>
+        <li>
+           <a href="#surgir" style="font-family:Helvetica" > <strong><i>Como Surgiu a Internet:</strong></i></a> 
+        </li>
+        <ol>
+         <li>
+         <a href="#internet" style="font-family:sans-serif" > <i>Como a Internet se popularizou</i></a>
+         </li>
+         <li>
+          <a href="#braza" style="font-family:sans-serif" ><i>Internet no Brasil</i></a>
+         </li>
+        </ol>
+        <li>
+            <a href="#html" style="font-family:Helvetica"  > <strong><i>O que é o HTML:</i></strong></a>
+        </li>
+        <ol>
+         <li>
+            <a href="#historia" style="font-family:sans-serif"><i>História do HTML</i></a> 
+         </li>
+         <li>
+            <a href="#funciona" style="font-family:sans-serif"><i>Como funciona o HTML</i></a>
+         </li>
+        </ol>
+         <li>
+            <a href="#tags" style="font-family:Helvetica" > <strong><i>O que é Tags e como elas funcionam?</i> </strong> </a>
+         </li>
+         <li>
+            <a href="#ref" style="font-family:Helvetica" > <strong>Referências</strong></a>
+         </li>
+       </ul>
+
+       <h2 id="surgir"style="font-family:Inter">Como Surgiu a Internet:</h2>
+       <small><a href="#inicio">(Voltar)</a></small>
+       
+       <p style="font-family:Inter" > O surgimento da internet se <mark>relacionou com a disputa tecnológica travada entre os Estados Unidos e a União Soviética</mark> durante o período da Guerra Fria. 
+        No contexto da corrida espacial, os soviéticos lançaram Sputnik, o primeiro satélite artificial lançado, para o espaço. Esse evento fez com que o governo norte-americano desenvolvesse um projeto que resultaria na criação da internet.
+    </p>
+       <p style="font-family:Inter"> Em 1958, surgiu a <abbr title="Advanced Research Projects Agency">ARPA</abbr>. Essa agência estabeleceu um programa para o desenvolvimento de um sistema que permitiu o envio de informações e dados importantes entre os centros militares e de pesquisa e o Pentágono. Além disso, pensava-se em usá-lo para proteção e defesa do país se houvesse uma guerra nuclear.
+    O projeto em questão realizado pela Arpa foi nomeado de Arpanet e conduzido por Robert Taylor e Lawrence Roberts, e ainda contou com estudos realizados por inúmeros outros cientistas. Na época foi usada a Wide Area Networks (WAN) como tecnologia para a transmissão dos dados."
+    
+    <p style="font-family:Inter"> A internet foi criada para estabelecer uma rede de informação e comunicação entre centros militares e de produção científica dos Estados Unidos.
+     A intenção foi facilitar a troca de informações entre esses espaços e, consequentemente, consolidar um mecanismo de defesa contra os soviéticos na época da Guerra Fria.
+   </p>
+   
+   <h3 id="internet"style="font-family:Inter">Como a Internet se popularizou</h3> 
+   <small><a href="#inicio">(Voltar)</a></small>
+
+   <p style="font-family:Inter"> A criação da <abbr>NSFNET</abbr> fez com que a Arpanet fosse descontinuada em 1990. <mark>Os avanços tecnológicos permitiram a criação do World Wide Web (WWW) em 1989,</mark> um sistema de distribuição de documentos e informação.
+        Já em 1991, esse sistema passou a ser utilizado pelo público em geral, fazendo com que, no final do século XX, já existissem milhares de sites.
+      </p>
+   <p style="font-family:Inter"> A criação do WWW permitiu que a internet fosse muito usada para fins privados e comerciais, possibilitando que, na década de 1990, um grande número de usuários viessem.
+      Isso fez com que a internet se tornasse cada vez mais fundamental na vida das pessoas, e elas começaram a se comunicar por e-mail, a se informar por meio de jornais digitais, a movimentar dinheiro em contas bancárias, a comprar mercadorias etc.
+      Já em 1997 foi criada a Google, empresa que é usado como mecanismo de busca, que recentemente, sendo o maior da internet e buscador mais utilizado do mundo, tendo domínio sobre vários serviços digitais.
+
+   </p>
+
+   <h3 id="braza"style="font-family:Inter">Internet no Brasil</h3>
+   <small><a href="#inicio">(Voltar)</a></small>
+
+   <p style="font-family:Inter"> Somente em 1988 a internet chega ao Brasil, por conta de uma conexão estabelecida entre o <mark>Computador do Laborátorio Nacional de Computação Científica, da <abbr title="Universidade Federal do Rio de Janeiro">UFRJ</abbr> e a rede da Universidade de Maryland, nos Estados Unidos.</mark>
+      Ainda em 1988, a <abbr title="Fundação de Amparo á Pesquisa do Estado de São Paulo">Fabesp</abbr> também estabeleceu uma conexão com a internet. 
+      Por causa dessa conexão, fui fundado a Alternex, um provedor de internet que permitia que os centros de pesquisa e a universidades pudessem ter uma acesso mediano á internet.
+      </p>
+   <p style="font-family:Inter"> A internet só foi usada para o público e para fins comerciais entre 1994 e 1995. 
+      A RNP deixou de ser restrita e passou a ser pública para todos. Em 1995, surgiu o Canal Vip, o primeiro domínio comercial registrado no país. 
+      Nesse período, sites de notícias, bancos, empresas e bandas como Barão Vermelho já lançaram seus websites.
+       Ao final desse ano, cerca de 120 mil pessoas já estavam conectadas à internet no Brasil.
+       </p>
+   
+   <h2 id="html"style="font-family:Inter">O que é HTML?</h2>
+   <small><a href="#inicio">(Voltar)</a></small> 
+   <p style="font-family:Inter">A Linguagem de Marcação de Hipertexto (HTML) é uma linguagem de computador, de diversas marcações, que compõe a maior parte das páginas da internet e dos aplicativos online. 
+      Um hipertexto é um texto usado para fazer referência a outros textos, enquanto uma linguagem de marcação é composta por uma série de marcações que dizem pa
+      ra os servidores da web qual é o estilo e a estrutura de um documento. HTML não é considerado uma linguagem de programação, pois ele não tem funcionalidades dinâmicas, e sim, criar seções, usar tags, elementos, entre outros.
+   </p>
+   <h3 id="historia"style="font-family:Inter">História do HTML</h3>
+   <small><a href="#inicio">(Voltar)</a></small>
+
+    <p style="font-family:Inter"> O HTML foi inventado por Tim Berners-Lee, um físico do centro de pesquisas CERN, na Suíça. Ele surgiu com a ideia de um sistema de hipertexto na internet.
+      Hipertexto é um texto que contém referências(links) para outros textos que podem acessados. Tim Berner-Lee publicou sua primeira versão do HTML em 1991 com apenas 18 tags. Devido a rápida ascensão e popularidade, o HTML é agora considerado um padrão oficial da web.
+   </p>  
+   <h3 id="funciona"style="font-family:Inter">Como funciona o HTML</h3>
+   <small><a href="#inicio">(Voltar)</a></small>
+
+   <p style="font-family:Inter">Todas as páginas HTML possuem uma série de elementos, que consistem num conjunto de tags e atributos. Uma tag diz para o navegador onde um elemento começa e termina, enquanto um atributo descreve as características de um elemento.
+      as principais são: Tags de abertura(<), Conteúdo(O que você quer que apareça para o usuário) e Tags de fechamento(</). 
+      Outra parte crucial de um elemento HTML é o seu atributo, que possui duas seções: um nome e um valor de atributo.
+       O nome identifica a informação adicional que um usuário deseja acrescentar, enquanto o valor de atributo fornece mais especificações.
+
+   </p>
+   <p style="font-family:Inter"> Outro atributo é a classe HTML, que é mais importante para desenvolvimento e programação. 
+      Essa classe de atributo adiciona informações de estilo que podem funcionar em elementos diferentes com o mesmo valor de classe.
+      </p>
+      <p style="font-family: Inter"> E por último, cada documento HTML deve começar com a tag <mark> < !DOCTYPE html > </mark>  para informar ao navegador qual é o tipo de documento do projeto.
+      </p>
+
+   <h2 id="tags" style="font-family:Inter"> O que são Tag e como elas funcionam?</h2>
+   <small><a href="#inicio">(Voltar)</a></small>
+   
+   <p style="font-family:Inter"> As tags essenciais são: < html >, < head > e < body >
+   </p>
+    
+      <ul style="font-family:Inter">
+      <li>
+         < html > define todo o documento HTML. 
+
+      </li>
+      <li>
+         < head > o que vem antes do que o usuário vê, contém metadados sobre o título e caractéres de página.
+      </li>
+      <li>
+         E por fim, < body > inclui tudo que aparece para o usuário (página).
+      </li>
+   </ul>
+   
+   <p style="font-family:Inter"> Já as tags de linha, existem milhares, mas as principais são: < i >, < strong >, < input type ="text" /> , < id /> , < style > , < class > , < input type="number" /> , < h1 >  até < h6 > , < p > , 
+   <p style="font-family:Inter">   < blockquote > , < u > , < mark > , < sup > , < ol > , < ul > , < li > , < a > , < a href"" > e < title > dentro do < a href > . 
+    
+   <ul style="font-family:Inter"> 
+          <li> 
+            < i >: Define o texto em Itálico.
+          </li>
+          <li>
+             < strong >: Deixa o texto em Negrito.
+          </li>
+          <li>
+            < input type="text" />: Cria um campo de digitação.
+          </li>
+          <li> 
+            < id >: é um identificador. 
+          </li>
+          <li>
+            < style >: Coloca comando CSS direto no elemento.
+            <li>
+            < class >: Tudo que se espifica nele, ele padroniza o elemento.
+            </li>
+            <li>
+            < input type ="number" />: Cria um campo de digitação somente para números.
+            </li>
+            <li>
+            < img src >: Coloca imagens.
+            </li>
+            <li>
+            < h1 > até < h6 >: Implementa títulos e subtítulos. 
+            </li>
+            <li>
+               < p >: Quebra de linha (paragráfo).
+            </li>
+            <li> 
+               < blockquote >: Usada geralmente para citar algum site ou um texto. 
+            </li> 
+            <li> 
+               < u >: Sublinha o texto.
+            </li> 
+            <li> 
+             < mark >: Marca o texto (como se fosse uma marca texto).
+            </li>
+            <li> 
+            < sup >: Fica em cima da linha Ex:<strong> 5<sup>2</sup>.</strong>
+            </li>  
+            <li>
+               < ol >: Começa uma lista ordenada, mas necessita da tag < li > para funcionar.
+            </li> 
+            <li> 
+               < li >: Esta tag define um item da lista.
+            </li>
+            <li>
+               < ul >: Começa uma lista não-ordenada através de marcadores.
+            </li> 
+            <li>
+               < a >: Coloca um link no site.
+            </li>
+            <li>   
+               < a href="" >: Coloca uma referência(URL).
+            </li>
+            <li> 
+                 < title > dentro da tag  < a href >: Coloca uma "balão" de texto ao passar o ponteiro do mouse no link
+               <p > Ex: <a href="Clica ai"title="Viu? aparece essa mensagem ao passar o ponteiro">Coloque o ponteiro aqui.</a>
+               </p>
+            </li>
+   
+
+         <h2 id="ref"style="font-family:Inter">Referências:</h2>
+                      <small><a href="#inicio">(Voltar)</a></small>
+
+
+         <ul>
+            <li>
+         <a style="font-size:medium" href="https://www.w3schools.com/tags/default.asp">W3Schools</a>
+            </li>
+            <li>
+         <a style="font-size:medium" href="https://web.dio.me/course/introducao-ao-html-na-pratica/learning/940389cb-cc74-44b0-a8fc-69a8d385b623?back=/track/formacao-html-web-developer&tab=undefined&moduleId=undefined">Curso HTML da Dio: Introdução ao HTML na Prática</a>
+         </li> 
+         <li>
+         <a style="font-size:medium" href="https://www.hostinger.com.br/tutoriais/o-que-e-html-conceitos-basicos#Como_Funciona_o_HTML">Hostinger sobre HTML</a>
+         </li>
+         <li>
+            <a style="font-size:medium" href="https://brasilescola.uol.com.br/informatica/internet.htm#:~:text=A%20internet%20surgiu%2C%20na%20década,instituições%20universitárias%20dos%20Estados%20Unidos.">Pesquisa feita sobre o surgimento da Internet</a>
+         </li> 
+      </body>
+   </head>
+   </html>
